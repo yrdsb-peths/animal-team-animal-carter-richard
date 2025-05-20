@@ -41,6 +41,11 @@ public class MyWorld extends World {
         int x = Greenfoot.getRandomNumber(600);
         int y = 0;
         addObject(apple, x, y);
+        
+        if(level >= 10)
+        {
+            addObject(apple, x, y);
+        }
     }
 }
 
