@@ -61,7 +61,7 @@ public class Elephant extends Actor
             facing = "right";
         }
         
-        // Remove apple if snake eats it
+        // Remove apple if elephant eats it
         eat();
         
         animateElephant();
